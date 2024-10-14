@@ -1,68 +1,66 @@
 /* RESET */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
 
-body{
+body {
     font-family: Montserrat, 'Helvetica Neue', sans-serif;
 }
 
-main{
-    padding-top: 88PX;
-    padding-left: 20px;
-}
-
 /* HEADER */
-.header{
+.header {
     color: #FF9614;
     text-align: center;
     font-family: "Nerko One", cursive;
 }
 
 /* SECTION-DESCRIPTION*/
-.description{
+.description {
     color: #F6F5F3;
 }
-.title{
-    line-height: 20px;
-}
-.title h3{
+
+.title h3 {
     color: #A59A99;
     font-size: smaller;
 }
-.title h2{
+
+.title h2 {
     color: #4E3969;
     display: inline;
-    font-size: medium;
+    font-size: x-large;
 }
 
-#extended-title{
+#extended-title {
     display: none;
 }
 
 /* COMMON */
 /* Layout */
-.container{
+
+.container {
     width: 100%;
-    padding: 20px;
+    padding: 0 20px;
 }
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
 }
 
 .video-col,
-.description-col{
+.description-col {
     width: 100%;
-    padding-top: 30px ;
+    padding-top: 30px;
+    color: #4E3969;
+    line-height: 2rem;
+    /* border: 2px solid black; */
 }
 
 
@@ -74,32 +72,51 @@ main{
 
 
 
-@media screen and (min-with:576px) {
-
-    
-}
+@media screen and (min-with:576px) {}
 
 
 /* Responsive */
-@media screen and (min-width:768px){
+@media screen and (min-width:768px) {
     /* COMMON */
     /* Layout */
-    .container{
+
+    .container {
         width: 80%;
         max-width: 1000px;
         margin: 0 auto;
         padding: 0;
     }
 
+
+    .video-col {
+        width: 60%;
+    }
+
+    .description-col {
+        width: 40%;
+    }
+
+
     /* HEADER */
-    .header{
+    .header {
         text-align: left;
-        padding: 50px;
+        padding: 20px;
+    }
+
+    /* SECTION-DESCRIPTION*/
+    .description {
+        padding: 20px;
+    }
+
+    .title h2 {
+        text-align: center;
+        font-size: xx-large;
+    }
+
+    #extended-title {
+        display: contents;
     }
 
 }
 
-@media screen and (min-with:992px) {
-
-    
-}
+@media screen and (min-with:992px) {}
