@@ -70,6 +70,10 @@ a{
    color: black;
 }
 
+/* SECTION-BANNER*/
+.banner{
+    display: none;
+}
 
 /* COMMON */
 /* Layout */
@@ -137,6 +141,11 @@ a{
     /* SECTION-SOCIAL*/
 
     .icons{
+        display: contents;
+    }
+
+    /* SECTION-BANNER*/
+    .banner{
         display: contents;
     }
 

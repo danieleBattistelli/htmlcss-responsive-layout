@@ -8,7 +8,7 @@ Successivamente, proviamo ad accontentare le richieste del cliente come segue, a
 Modalità Tablet (sopra i 768px)
 -
 - 
-- I bottoni social si allargano
+- 
 - compare il banner pubblicitario
 - l'immagine nella descrizione della ricetta viene circondata dal testo
 Modalità Desktop(sopra i 992px)
