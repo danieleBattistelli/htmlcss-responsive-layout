@@ -71,9 +71,27 @@ a{
 }
 
 /* SECTION-BANNER*/
-.banner{
+#banner{
     display: none;
+    width: 100%;
 }
+
+/* SECTION-PRESENTATION*/
+.container h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container img{
+    margin-top: 10px;
+    margin-left: 25%;
+    width: 50%;
+}
+
+p{
+    line-height: 2rem;
+}
+
 
 /* COMMON */
 /* Layout */
@@ -86,6 +104,8 @@ a{
 .row {
     display: flex;
     flex-wrap: wrap;
+    row-gap: 5px;
+    padding-bottom: 10px;
 }
 
 
@@ -109,14 +129,15 @@ a{
         padding: 0;
     }
 
-
     .video-col {
-       width: 60%;
+        width: 60%;
     }
-
+ 
     .description-col {
         width: 40%;
-    }
+     }
+ 
+
 
 
     /* HEADER */
@@ -125,8 +146,8 @@ a{
         padding: 20px;
     }
 
-    /* SECTION-DESCRIPTION*/
-    .description {
+     /* SECTION-DESCRIPTION*/
+     .description {
         padding: 20px;
     }
 
@@ -138,17 +159,46 @@ a{
     #extended-title {
         display: contents;
     }
+
+    /* SECTION-BANNER*/
+    #banner{
+        display: contents;
+    }
+
+    /* SECTION PRESENTATION */
+
+    .container h2{
+        padding-top: 50px;
+    }
+    .container img{
+        margin-top: 10px;
+        margin-left: 0;
+        width: 30%;
+        float: left;
+    }
+
+}
+
+@media screen and (min-with:992px) {
+
+    /* COMMON */
+    /* Layout */
+
+    .container {
+        width: 80%;
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0;
+    }
+   
     /* SECTION-SOCIAL*/
 
     .icons{
         display: contents;
     }
+    /* DESCRIPTION */
 
-    /* SECTION-BANNER*/
-    .banner{
-        display: contents;
-    }
+    
+    
 
 }
-
-@media screen and (min-with:992px) {}

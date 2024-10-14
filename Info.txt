@@ -9,7 +9,7 @@ Modalità Tablet (sopra i 768px)
 -
 - 
 - 
-- compare il banner pubblicitario
+- 
 - l'immagine nella descrizione della ricetta viene circondata dal testo
 Modalità Desktop(sopra i 992px)
 - La grandezza el titolo della ricetta aumenta ancora di più
