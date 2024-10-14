@@ -41,6 +41,36 @@ body {
     display: none;
 }
 
+.video-col,
+.description-col {
+    width: 100%;
+    padding-top: 30px;
+    color: #4E3969;
+    line-height: 2rem;
+    /* border: 2px solid black; */
+}
+
+
+/* SECTION-SOCIAL*/
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5rem;
+    list-style: none;
+}
+
+.icons{
+    display: none;
+}
+
+a{
+   text-decoration: none;
+   color: black;
+}
+
+
 /* COMMON */
 /* Layout */
 
@@ -53,18 +83,6 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
-
-.video-col,
-.description-col {
-    width: 100%;
-    padding-top: 30px;
-    color: #4E3969;
-    line-height: 2rem;
-    /* border: 2px solid black; */
-}
-
-
-
 
 
 
@@ -89,7 +107,7 @@ body {
 
 
     .video-col {
-        width: 60%;
+       width: 60%;
     }
 
     .description-col {
@@ -114,6 +132,11 @@ body {
     }
 
     #extended-title {
+        display: contents;
+    }
+    /* SECTION-SOCIAL*/
+
+    .icons{
         display: contents;
     }
 
