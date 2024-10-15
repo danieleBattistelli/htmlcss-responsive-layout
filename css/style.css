@@ -56,7 +56,7 @@ body {
 .social-icons{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 5rem;
     list-style: none;
 }
@@ -83,8 +83,9 @@ a{
 }
 
 .container img{
-    margin-top: 10px;
-    margin-left: 25%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
     width: 50%;
 }
 
@@ -92,10 +93,24 @@ p{
     line-height: 2rem;
 }
 
+/* FOOTER */
+.footer{
+    background-color: #7C69A4;
+    height: 50px;
+}
+
+
+.footer-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    list-style: none;
+}
+
 
 /* COMMON */
 /* Layout */
-
 .container {
     width: 100%;
     padding: 0 20px;
@@ -162,7 +177,7 @@ p{
 
     /* SECTION-BANNER*/
     #banner{
-        display: contents;
+        display: block;
     }
 
     /* SECTION PRESENTATION */
